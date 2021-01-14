@@ -1,0 +1,154 @@
+h1 {
+  font-size: 2rem;
+  margin: 2rem; }
+
+a {
+  text-decoration: none; }
+
+h3 {
+  text-decoration: underline; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62,5%;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+/*index*/
+.content-wrapper {
+  margin: 0;
+  width: auto; }
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.portfolio-item-wrapper {
+  position: relative; }
+
+.portfolio-img-background {
+  height: 32rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.text-wrapper .subtitle {
+  font-weight: 600;
+  transition: 1s;
+  color: transparent; }
+
+.text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: #16ec32;
+  text-align: center;
+  font-size: 3rem; }
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%); }
+
+@media screen and (min-width: 768px) {
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .portfolio-img-background {
+    height: 36rem;
+    width: auto; } }
+
+/*evolucion*/
+.img__evolucion {
+  height: 20rem;
+  width: 27rem;
+  border-radius: 2em; }
+
+/*afri y asia*/
+.sangria {
+  text-indent: 3rem; }
+
+h3 {
+  margin: 2rem; }
+
+.gridTabla {
+  display: grid;
+  width: 100%;
+  border: solid #d67f0d 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 0,6rem; }
+
+iframe {
+  width: 460px; }
+
+@media screen and (min-width: 768px) {
+  .gridTabla {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr; }
+  iframe {
+    width: 100%; } }
+
+.fotoDurmiendo {
+  width: 26rem;
+  height: 17rem; }
+
+p .button {
+  background-color: red;
+  transition: all 2s; }
+  p .button :hover {
+    width: 3rem; }
+
+/*afri y asia*/
+/*datos*/
+ol li {
+  list-style: upper-roman;
+  margin-left: 2rem;
+  font-weight: 800;
+  color: #db31cd;
+  font-size: 1rem; }
+
+ul {
+  color: #0ab1bd; }
+  ul li p {
+    color: black; }
+
+/*footer*/
+h5 {
+  font-size: 1rem;
+  color: red; }
+
+h5 a {
+  transition: all 1s;
+  color: black; }
+
+h5 a:hover {
+  color: #fbff0e;
+  background-color: black;
+  text-decoration: none;
+  margin: 1rem; }
+
+#footer {
+  margin-top: 1rem;
+  background-color: #058305;
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+  #footer {
+    width: 100%; }
+  ol li {
+    margin-left: 2rem;
+    font-weight: 800;
+    font-size: 1rem; } }
