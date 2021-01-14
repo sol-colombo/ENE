@@ -11,6 +11,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+    }
     }
 /*index*/
     .content-wrapper{
@@ -191,4 +195,8 @@ h5 a:hover{
             font-size: $size ;
      
         }
+    }
+    /* galria*/
+    .fotos{
+        margin: $lista;
     }
