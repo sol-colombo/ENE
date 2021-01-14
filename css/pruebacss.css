@@ -1,19 +1,23 @@
 h1 {
   font-size: 2rem;
-  margin: 2rem; }
+  margin: 2rem;
+  color: orange; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 h3 {
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin: 2rem; }
 
 * {
   margin: 0;
   padding: 0;
   font-size: 62,5%;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background-color: #747474; }
 
 /*index*/
 .content-wrapper {
@@ -75,12 +79,14 @@ h3 {
   width: 27rem;
   border-radius: 2em; }
 
+tituloPrincipal {
+  font-size: 3rem;
+  font-weight: 900;
+  color: orange; }
+
 /*afri y asia*/
 .sangria {
   text-indent: 3rem; }
-
-h3 {
-  margin: 2rem; }
 
 .gridTabla {
   display: grid;

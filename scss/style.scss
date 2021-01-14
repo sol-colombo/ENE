@@ -10,6 +10,7 @@
     font-size: 62,5%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(116, 116, 116);
 
     }
 /*index*/
@@ -86,6 +87,12 @@
     border-radius: 2em;
 
     }
+    tituloPrincipal{
+        font-size: $titulo;
+        font-weight:900;
+        color: orange;
+
+    }
 
 
 
@@ -93,9 +100,7 @@
 .sangria{
     text-indent:$sangria;
 }
-h3{
-    margin:2rem;
-}
+
 .gridTabla{
     display: grid;
     width: 100%;
