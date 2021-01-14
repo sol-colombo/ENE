@@ -14,9 +14,10 @@ h3 {
   font-size: 62,5%;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
-  * html {
-    scroll-behavior: smooth;
-    overflow-x: hidden !important; }
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important; }
 
 /*index*/
 .content-wrapper {
@@ -80,7 +81,8 @@ h3 {
 
 /*afri y asia*/
 .sangria {
-  text-indent: 3rem; }
+  text-indent: 3rem;
+  text-align: center; }
 
 h3 {
   margin: 2rem; }

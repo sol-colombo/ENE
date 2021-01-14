@@ -10,11 +10,10 @@
     font-size: 62,5%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-
+    }
     html{
         scroll-behavior: smooth;
         overflow-x: hidden !important;
-    }
     }
 /*index*/
     .content-wrapper{
@@ -96,6 +95,7 @@
 /*afri y asia*/
 .sangria{
     text-indent:$sangria;
+    text-align: center;
 }
 h3{
     margin:2rem;
