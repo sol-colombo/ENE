@@ -1,7 +1,8 @@
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   margin: 2rem;
-  color: orange; }
+  color: orange;
+  font-weight: 900; }
 
 a {
   text-decoration: none;
@@ -10,6 +11,9 @@ a {
 h3 {
   text-decoration: underline;
   margin: 2rem; }
+
+p {
+  margin: 2rem 1rem 2rem 1rem; }
 
 * {
   margin: 0;
@@ -78,13 +82,17 @@ h3 {
   width: 27rem;
   border-radius: 2em; }
 
-tituloPrincipal {
-  font-weight: 900;
-  color: orange; }
+h1 {
+  font-size: 3rem; }
+
+.navLogo {
+  height: 5rem;
+  width: 6rem; }
 
 /*afri y asia*/
 .sangria {
-  text-indent: 3rem; }
+  text-indent: 3rem;
+  font-weight: 500; }
 
 .gridTabla {
   display: grid;
@@ -109,12 +117,6 @@ iframe {
   width: 26rem;
   height: 17rem; }
 
-p .button {
-  background-color: red;
-  transition: all 2s; }
-  p .button :hover {
-    width: 3rem; }
-
 /*afri y asia*/
 /*datos*/
 ol li {
@@ -128,6 +130,9 @@ ul {
   color: #0ab1bd; }
   ul li p {
     color: black; }
+
+ol {
+  margin-left: 3rem; }
 
 /*footer*/
 h5 {
@@ -145,9 +150,11 @@ h5 a:hover {
   margin: 1rem; }
 
 #footer {
+  font-weight: 400;
   margin-top: 1rem;
   background-color: #058305;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 @media screen and (min-width: 768px) {
   #footer {
@@ -155,4 +162,6 @@ h5 a:hover {
   ol li {
     margin-left: 2rem;
     font-weight: 800;
-    font-size: 1rem; } }
+    font-size: 2rem; }
+  h1 {
+    font-size: 5rem; } }

@@ -87,18 +87,18 @@
     border-radius: 2em;
 
     }
-    tituloPrincipal{
-     
-font-weight: 900;
-        color: orange;
-
-    }
-
-
-
+    
+h1{
+    font-size: 3rem;
+}
+.navLogo{
+height: 5rem;
+width: 6rem;
+}
 /*afri y asia*/
 .sangria{
     text-indent:$sangria;
+    font-weight: 500;
 }
 
 .gridTabla{
@@ -131,13 +131,6 @@ iframe{
     width: 26rem;
     height: 17rem;
 }
-p .button{
-    background-color: $back;
-    transition: all 2s;
-    :hover{
-        width: 3rem;
-    }
-}
 
 /*afri y asia*/
 
@@ -156,6 +149,10 @@ color: rgb(10, 177, 189);
 li p{
     color: black;
 }
+}
+
+ol{
+    margin-left: 3rem;
 }
 
 
@@ -177,10 +174,11 @@ h5 a:hover{
     }
 
     #footer{
-       
+       font-weight: 400;
         margin-top:1rem;
         background-color: rgb(5, 131, 5);
         width: 100%;
+        height: auto;
     }
 
 
@@ -193,7 +191,10 @@ h5 a:hover{
         ol li {
             margin-left: 2rem;
             font-weight: 800;
-            font-size: $size ;
+            font-size: 2rem ;
      
+        }
+        h1{
+            font-size: 5rem;
         }
     }
