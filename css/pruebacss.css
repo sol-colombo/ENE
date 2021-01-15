@@ -108,8 +108,9 @@ iframe {
 @media screen and (min-width: 768px) {
   .gridTabla {
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr; }
+    gap: 1rem; }
   iframe {
     width: 100%; } }
 
