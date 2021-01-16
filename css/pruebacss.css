@@ -11,7 +11,8 @@ a {
 h3 {
   text-decoration: underline;
   margin: 2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #830783; }
 
 p {
   margin: 2rem 1rem 2rem 1rem; }
@@ -83,6 +84,9 @@ p {
   width: 27rem;
   border-radius: 2em; }
 
+h1 {
+  font-size: 3rem; }
+
 .navLogo {
   height: 5rem;
   width: 6rem; }
@@ -135,10 +139,13 @@ ol {
 
 ol ul {
   color: #570250;
-  font-weight: 400;
-  font-size: 2rem; }
+  font-weight: 400; }
 
 /*footer*/
+h5 {
+  font-size: 1rem;
+  color: red; }
+
 h5 a {
   transition: all 1s;
   color: black; }

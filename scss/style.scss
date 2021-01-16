@@ -87,7 +87,10 @@
     border-radius: 2em;
 
     }
-
+    
+h1{
+    font-size: 3rem;
+}
 .navLogo{
 height: 5rem;
 width: 6rem;
@@ -160,12 +163,14 @@ ol{
 ol ul{
     color: rgb(87, 2, 80);
     font-weight: 400;
-    font-size: 2rem;
 }
 
 /*footer*/
 
-
+h5{
+    font-size:$lista;
+    color:$back;
+}
  h5 a{
     transition: all 1s;
     color: black;
