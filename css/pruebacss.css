@@ -128,14 +128,17 @@ ol li {
   font-weight: 800;
   color: #db31cd;
   font-size: 1rem; }
-
-ul {
-  color: #0ab1bd; }
-  ul li p {
-    color: black; }
+  ol li p {
+    color: black;
+    font-size: 1rem; }
 
 ol {
   margin-left: 3rem; }
+
+ol ul {
+  color: #570250;
+  font-weight: 400;
+  font-size: 2rem; }
 
 /*footer*/
 h5 {
