@@ -95,6 +95,23 @@ h1{
 height: 5rem;
 width: 6rem;
 }
+
+.evolucionC .subtitulo{
+    border-style: dashed solid;
+    border-color: red;
+    border-width: 1rem;
+}
+ .evolucionC .hoyElefantes{
+    border-style: dashed solid;
+    border-color: rgb(231, 209, 5);
+    border-width: 1rem;
+}
+.evolucionC .tituloPrincipal{
+    border-style: dashed solid;
+    border-color: rgb(0, 163, 0);
+    border-width: 1rem;
+}
+
 /*afri y asia*/
 .sangria{
     text-indent:$sangria;
@@ -185,7 +202,7 @@ h5 a:hover{
     #footer{
        font-weight: 400;
         margin-top:1rem;
-        background-color: rgb(5, 131, 5);
+        background-color: rgb(9, 137, 223);
         width: 100%;
         height: auto;
     }
@@ -205,5 +222,19 @@ h5 a:hover{
         }
         h1{
             font-size: 5rem;
+        }
+        .evolucionC .subtitulo{
+            
+    border-width: 2rem;
+        }
+        .evolucionC .hoyElefantes{
+            
+    
+            border-width: 2rem;
+        }
+        .evolucionC .tituloPrincipal{
+            border-style: dashed solid;
+            border-color: rgb(0, 163, 0);
+            border-width: 2rem;
         }
     }
