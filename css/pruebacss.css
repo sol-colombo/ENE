@@ -1,19 +1,30 @@
 h1 {
-  font-size: 2rem;
-  margin: 2rem; }
+  font-size: 5rem;
+  margin: 2rem;
+  color: orange;
+  font-weight: 900; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 h3 {
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin: 2rem;
+  font-weight: 700;
+  color: #830783; }
+
+p {
+  margin: 2rem 1rem 2rem 1rem; }
 
 * {
   margin: 0;
   padding: 0;
   font-size: 62,5%;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important; }
 
 html {
   scroll-behavior: smooth;
@@ -79,13 +90,36 @@ html {
   width: 27rem;
   border-radius: 2em; }
 
+.navLogo {
+  height: 5rem;
+  width: 6rem; }
+
+.evolucionC .subtitulo {
+  border-style: double;
+  border-color: #631b1b;
+  border-width: 1rem; }
+
+.evolucionC .hoyElefantes {
+  border-style: double;
+  border-color: #c5b520;
+  border-width: 1rem; }
+
+.evolucionC .tituloPrincipal {
+  border-style: double;
+  border-color: #12442b;
+  border-width: 1rem; }
+
 /*afri y asia*/
 .sangria {
   text-indent: 3rem;
+<<<<<<< HEAD
   text-align: center; }
 
 h3 {
   margin: 2rem; }
+=======
+  font-weight: 500; }
+>>>>>>> ramaSecundaria
 
 .gridTabla {
   display: grid;
@@ -98,25 +132,28 @@ h3 {
 iframe {
   width: 460px; }
 
-@media screen and (min-width: 768px) {
-  .gridTabla {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr; }
-  iframe {
-    width: 100%; } }
+.gridTablaGrande {
+  display: grid;
+  border: solid #d67f0d 1rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0,6rem; }
+
+iframe {
+  width: 100%; }
 
 .fotoDurmiendo {
   width: 26rem;
-  height: 17rem; }
-
-p .button {
-  background-color: red;
-  transition: all 2s; }
-  p .button :hover {
-    width: 3rem; }
+  height: 17rem;
+  border-radius: 2em; }
 
 /*afri y asia*/
+.galeriaEstructura .formularioDiv {
+  margin-top: 2rem; }
+
+.galeriaEstructura .carrouselFotos {
+  margin-top: 2rem; }
+
 /*datos*/
 ol li {
   list-style: upper-roman;
@@ -124,11 +161,16 @@ ol li {
   font-weight: 800;
   color: #db31cd;
   font-size: 1rem; }
+  ol li p {
+    color: black;
+    font-size: 1rem; }
 
-ul {
-  color: #0ab1bd; }
-  ul li p {
-    color: black; }
+ol {
+  margin-left: 3rem; }
+
+ol ul {
+  color: #570250;
+  font-weight: 400; }
 
 /*footer*/
 h5 {
@@ -146,8 +188,9 @@ h5 a:hover {
   margin: 1rem; }
 
 #footer {
+  font-weight: 400;
   margin-top: 1rem;
-  background-color: #058305;
+  background-color: #0989df;
   width: 100%; }
 
 @media screen and (min-width: 768px) {
@@ -156,8 +199,20 @@ h5 a:hover {
   ol li {
     margin-left: 2rem;
     font-weight: 800;
+<<<<<<< HEAD
     font-size: 1rem; } }
 
 /* galria*/
 .fotos {
   margin: 1rem; }
+=======
+    font-size: 2rem; }
+  h1 {
+    font-size: 5rem; }
+  .evolucionC .subtitulo {
+    border-width: 2rem; }
+  .evolucionC .hoyElefantes {
+    border-width: 2rem; }
+  .evolucionC .tituloPrincipal {
+    border-width: 2rem; } }
+>>>>>>> ramaSecundaria

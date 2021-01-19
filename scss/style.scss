@@ -10,10 +10,19 @@
     font-size: 62,5%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     }
     html{
         scroll-behavior: smooth;
         overflow-x: hidden !important;
+=======
+    
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+
+
+
+>>>>>>> ramaSecundaria
     }
 /*index*/
     .content-wrapper{
@@ -89,17 +98,39 @@
     border-radius: 2em;
 
     }
+    
 
+.navLogo{
+height: 5rem;
+width: 6rem;
+}
 
+.evolucionC .subtitulo{
+    border-style: double;
+    border-color: rgb(99, 27, 27);
+    border-width: 1rem;
+}
+ .evolucionC .hoyElefantes{
+    border-style: double;
+    border-color: rgb(197, 181, 32);
+    border-width: 1rem;
+}
+.evolucionC .tituloPrincipal{
+    border-style: double;
+    border-color: rgb(18, 68, 43);
+    border-width: 1rem;
+}
 
 /*afri y asia*/
 .sangria{
     text-indent:$sangria;
+<<<<<<< HEAD
     text-align: center;
+=======
+    font-weight: 500;
+>>>>>>> ramaSecundaria
 }
-h3{
-    margin:2rem;
-}
+
 .gridTabla{
     display: grid;
     width: 100%;
@@ -113,32 +144,43 @@ iframe{
     width:460px;
 
 }
+ 
 
-@media screen and (min-width: 768px){
-.gridTabla{
+.gridTablaGrande{
     display: grid;
+    border: solid rgb(214, 127, 13) 1rem;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows:1fr 1fr;
+    gap: 0,6rem;
 
 }
+
 iframe{
     width: 100%;
 }
 
-}
+
 .fotoDurmiendo{
     width: 26rem;
     height: 17rem;
-}
-p .button{
-    background-color: $back;
-    transition: all 2s;
-    :hover{
-        width: 3rem;
-    }
+    border-radius: 2em;
 }
 
 /*afri y asia*/
+
+
+
+
+ .galeriaEstructura .formularioDiv{
+    margin-top: 2rem;
+}
+.galeriaEstructura .carrouselFotos{
+    margin-top: 2rem;
+}
+
+
+
+
 
 
 
@@ -149,14 +191,22 @@ p .button{
     font-weight: 800;
     color: rgb(219, 49, 205);
     font-size: $size * 1;
-}
-ul {
-color: rgb(10, 177, 189);
-li p{
+
+
+ p{
     color: black;
-}
+    font-size: $lista;
 }
 
+}
+
+ol{
+    margin-left: 3rem;
+}
+ol ul{
+    color: rgb(87, 2, 80);
+    font-weight: 400;
+}
 
 /*footer*/
 
@@ -176,10 +226,11 @@ h5 a:hover{
     }
 
     #footer{
-       
+       font-weight: 400;
         margin-top:1rem;
-        background-color: rgb(5, 131, 5);
+        background-color: rgb(9, 137, 223);
         width: 100%;
+       
     }
 
 
@@ -192,8 +243,25 @@ h5 a:hover{
         ol li {
             margin-left: 2rem;
             font-weight: 800;
-            font-size: $size ;
-     
+            font-size: 2rem ;
+
+        }
+        h1{
+            font-size: 5rem;
+        }
+        .evolucionC .subtitulo{
+            
+    border-width: 2rem;
+        }
+        .evolucionC .hoyElefantes{
+            
+    
+            border-width: 2rem;
+        }
+        .evolucionC .tituloPrincipal{
+      
+
+            border-width: 2rem;
         }
     }
     /* galria*/
