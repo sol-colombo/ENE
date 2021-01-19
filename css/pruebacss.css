@@ -92,17 +92,17 @@ h1 {
   width: 6rem; }
 
 .evolucionC .subtitulo {
-  border-style: dashed solid;
+  border-style: double;
   border-color: #631b1b;
   border-width: 1rem; }
 
 .evolucionC .hoyElefantes {
-  border-style: dashed solid;
+  border-style: double;
   border-color: #c5b520;
   border-width: 1rem; }
 
 .evolucionC .tituloPrincipal {
-  border-style: dashed solid;
+  border-style: double;
   border-color: #12442b;
   border-width: 1rem; }
 
@@ -175,8 +175,7 @@ h5 a:hover {
   font-weight: 400;
   margin-top: 1rem;
   background-color: #0989df;
-  width: 100%;
-  height: auto; }
+  width: 100%; }
 
 @media screen and (min-width: 768px) {
   #footer {
