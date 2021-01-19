@@ -26,10 +26,6 @@ p {
   scroll-behavior: smooth;
   overflow-x: hidden !important; }
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden !important; }
-
 /*index*/
 .content-wrapper {
   margin: 0;
@@ -112,14 +108,7 @@ html {
 /*afri y asia*/
 .sangria {
   text-indent: 3rem;
-<<<<<<< HEAD
-  text-align: center; }
-
-h3 {
-  margin: 2rem; }
-=======
   font-weight: 500; }
->>>>>>> ramaSecundaria
 
 .gridTabla {
   display: grid;
@@ -199,13 +188,6 @@ h5 a:hover {
   ol li {
     margin-left: 2rem;
     font-weight: 800;
-<<<<<<< HEAD
-    font-size: 1rem; } }
-
-/* galria*/
-.fotos {
-  margin: 1rem; }
-=======
     font-size: 2rem; }
   h1 {
     font-size: 5rem; }
@@ -215,4 +197,7 @@ h5 a:hover {
     border-width: 2rem; }
   .evolucionC .tituloPrincipal {
     border-width: 2rem; } }
->>>>>>> ramaSecundaria
+
+/* galria*/
+.fotos {
+  margin: 1rem; }
