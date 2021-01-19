@@ -88,9 +88,7 @@
 
     }
     
-h1{
-    font-size: 3rem;
-}
+
 .navLogo{
 height: 5rem;
 width: 6rem;
@@ -135,8 +133,7 @@ iframe{
 
 .gridTablaGrande{
     display: grid;
-  
- border: solid rgb(214, 127, 13) 1rem;
+    border: solid rgb(214, 127, 13) 1rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(6,1fr);
     gap: 0,6rem;
