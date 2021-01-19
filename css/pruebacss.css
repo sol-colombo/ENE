@@ -138,6 +138,12 @@ iframe {
   border-radius: 2em; }
 
 /*afri y asia*/
+.galeriaEstructura .formularioDiv {
+  margin-top: 2rem; }
+
+.galeriaEstructura .carrouselFotos {
+  margin-top: 2rem; }
+
 /*datos*/
 ol li {
   list-style: upper-roman;
