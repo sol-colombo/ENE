@@ -146,7 +146,7 @@ ol li {
   color: #db31cd;
   font-size: 2rem;
   list-style: upper-roman;
-  margin: 1rem; }
+  margin-left: 3rem; }
   ol li p {
     color: black; }
 
@@ -175,9 +175,12 @@ h5 a:hover {
 
 @media screen and (min-width: 768px) {
   ol li {
+    margin-left: 2rem;
     font-weight: 800;
     color: rebeccapurple;
     font-size: 2rem; }
+  ol ul {
+    list-style-type: circle; }
   h1 {
     font-size: 4rem;
     padding: 1rem;
