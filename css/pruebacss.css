@@ -10,12 +10,12 @@ a {
 
 h3 {
   text-decoration: underline;
-  margin: 1rem;
+  margin: 2rem;
   font-weight: 700;
   color: #830783; }
 
 p {
-  margin: 1rem; }
+  padding: 2rem; }
 
 * {
   margin: 0;
@@ -123,7 +123,7 @@ p {
   border: solid #d67f0d 1rem;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(6, 1fr);
-  gap: 0,6rem; }
+  gap: 0,4rem; }
 
 iframe {
   width: 100%;
@@ -147,13 +147,12 @@ iframe {
 /*datos*/
 ol li {
   list-style: upper-roman;
-  margin-left: 4rem;
+  margin-left: 2rem;
   font-weight: 800;
   color: #db31cd;
   font-size: 1rem; }
   ol li p {
-    color: black;
-    font-size: 1rem; }
+    color: black; }
 
 ol ul {
   color: #570250;
@@ -162,7 +161,6 @@ ol ul {
 
 /*footer*/
 h5 {
-  font-size: 1rem;
   color: red; }
 
 h5 a {
@@ -196,9 +194,13 @@ h5 a:hover {
     border-width: 2rem; }
   .evolucionC .tituloPrincipal {
     border-width: 2rem; }
-  iframe {
-    width: 555px;
-    height: 340px; } }
+  .video {
+    overflow: hidden; }
+  .iframeResponsive iframe {
+    width: 100%;
+    height: 18rem;
+    top: 1rem;
+    left: 0; } }
 
 /* galria*/
 .carrouselFotos {
