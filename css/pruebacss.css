@@ -10,7 +10,7 @@ a {
 
 h3 {
   text-decoration: underline;
-  margin: 2rem;
+  margin: 1rem;
   font-weight: 700;
   color: #830783; }
 
@@ -202,4 +202,13 @@ h5 a:hover {
 
 /* galria*/
 .carrouselFotos {
+  margin-bottom: 1rem;
+  border-style: double;
+  border-color: #c5b520;
+  border-width: 1rem; }
+
+.formularioDiv {
+  border-style: double;
+  border-color: #12442b;
+  border-width: 1rem;
   margin-bottom: 1rem; }
