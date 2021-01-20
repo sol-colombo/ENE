@@ -174,7 +174,7 @@ iframe{
 
 /*datos*/
 
-#lista li {
+ol li {
 
     font-weight: 800;
     color: rgb(219, 49, 205);
@@ -189,7 +189,7 @@ iframe{
 
 }
 
-#lista ul{
+ol ul{
     color: rgb(87, 2, 80);
     font-weight: 400;
     font-size: 2rem;
@@ -221,7 +221,7 @@ h5 a:hover{
 
     @media screen and (min-width: 768px){
     
-#lista li {
+ol li {
         
             
             font-weight: 800;

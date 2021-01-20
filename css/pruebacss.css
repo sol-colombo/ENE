@@ -141,16 +141,16 @@ iframe {
   margin-top: 2rem; }
 
 /*datos*/
-#lista li {
+ol li {
   font-weight: 800;
   color: #db31cd;
   font-size: 2rem;
   list-style: upper-roman;
   margin: 1rem; }
-  #lista li p {
+  ol li p {
     color: black; }
 
-#lista ul {
+ol ul {
   color: #570250;
   font-weight: 400;
   font-size: 2rem;
@@ -174,7 +174,7 @@ h5 a:hover {
   background-color: #0989df; }
 
 @media screen and (min-width: 768px) {
-  #lista li {
+  ol li {
     font-weight: 800;
     color: rebeccapurple;
     font-size: 2rem; }
