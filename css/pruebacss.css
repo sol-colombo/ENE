@@ -118,10 +118,6 @@ p {
   grid-template-rows: repeat(6, 1fr);
   gap: 0,6rem; }
 
-iframe {
-  width: 530px;
-  height: 340px; }
-
 .gridTablaGrande {
   display: grid;
   border: solid #d67f0d 1rem;
@@ -133,6 +129,9 @@ iframe {
   width: 26rem;
   height: 17rem;
   border-radius: 2em; }
+
+.infoElefante {
+  margin: 2rem; }
 
 /*afri y asia*/
 .galeriaEstructura .formularioDiv {
@@ -183,7 +182,9 @@ h5 a:hover {
     font-size: 2rem;
     list-style: upper-roman; }
   h1 {
-    font-size: 5rem; }
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 1rem; }
   .evolucionC .subtitulo {
     border-width: 2rem; }
   .evolucionC .hoyElefantes {
@@ -191,8 +192,8 @@ h5 a:hover {
   .evolucionC .tituloPrincipal {
     border-width: 2rem; }
   iframe {
-    width: 100%;
-    height: 23rem; } }
+    width: 555px;
+    height: 340px; } }
 
 /* galria*/
 .carrouselFotos {
