@@ -86,8 +86,8 @@
 
     /*evolucion*/
     .img__evolucion{
-    height: 20rem;
-    width:27rem;
+    height: 19rem;
+    width:26rem;
     border-radius: 2em;
 
     }
@@ -126,11 +126,11 @@ width: 6rem;
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
-   
+
 
 }
 
- 
+
 
 .gridTablaGrande{
     display: grid;
@@ -148,7 +148,7 @@ iframe{
 }
 
 .fotoDurmiendo{
-    width: 26rem;
+    width: 24rem;
     height: 17rem;
     border-radius: 2em;
 }
@@ -159,7 +159,7 @@ iframe{
 
 
 
- .galeriaEstructura .formularioDiv{
+.galeriaEstructura .formularioDiv{
     margin-top: 2rem;
 }
 .galeriaEstructura .carrouselFotos{
@@ -174,36 +174,36 @@ iframe{
 
 /*datos*/
 
-  #lista ol li {
-   
+#lista li {
+
     font-weight: 800;
     color: rgb(219, 49, 205);
     font-size: 2rem;
     list-style: upper-roman;
-    padding-left: 1rem;
-  
+    margin: 1rem;
+
     
     p{
     color: black;
-  
 }
 
 }
 
-ol ul{
+#lista ul{
     color: rgb(87, 2, 80);
     font-weight: 400;
     font-size: 2rem;
     list-style-type:circle;
+
 }
 
 /*footer*/
 
 h5{
-   
+
     color:$back;
 }
- h5 a{
+h5 a{
     transition: all 1s;
     color: black;
 }
@@ -216,13 +216,12 @@ h5 a:hover{
 
     #footer{
         background-color: rgb(9, 137, 223);
-   
     }
 
 
     @media screen and (min-width: 768px){
     
-     #lista ol li {
+#lista li {
         
             
             font-weight: 800;
@@ -230,6 +229,7 @@ h5 a:hover{
             font-size: 2rem ;
             
         }
+
         h1{
             font-size: 4rem;
             padding: 1rem;
@@ -245,10 +245,17 @@ h5 a:hover{
             border-width: 2rem;
         }
         .evolucionC .tituloPrincipal{
-      
 
             border-width: 2rem;
         }
+
+        .img__evolucion{
+            height: 22rem;
+            width:28rem;
+            border-radius: 2em;
+        
+            }
+            
     }
     /* galria*/
     .carrouselFotos {

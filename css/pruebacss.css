@@ -15,6 +15,7 @@ h3 {
   color: #830783; }
 
 p {
+  font-size: 1rem;
   padding: 2rem; }
 
 * {
@@ -82,8 +83,8 @@ p {
 
 /*evolucion*/
 .img__evolucion {
-  height: 20rem;
-  width: 27rem;
+  height: 19rem;
+  width: 26rem;
   border-radius: 2em; }
 
 .navLogo {
@@ -128,7 +129,7 @@ iframe {
   height: 350px; }
 
 .fotoDurmiendo {
-  width: 26rem;
+  width: 24rem;
   height: 17rem;
   border-radius: 2em; }
 
@@ -140,16 +141,16 @@ iframe {
   margin-top: 2rem; }
 
 /*datos*/
-#lista ol li {
+#lista li {
   font-weight: 800;
   color: #db31cd;
   font-size: 2rem;
   list-style: upper-roman;
-  padding-left: 1rem; }
-  #lista ol li p {
+  margin: 1rem; }
+  #lista li p {
     color: black; }
 
-ol ul {
+#lista ul {
   color: #570250;
   font-weight: 400;
   font-size: 2rem;
@@ -173,7 +174,7 @@ h5 a:hover {
   background-color: #0989df; }
 
 @media screen and (min-width: 768px) {
-  #lista ol li {
+  #lista li {
     font-weight: 800;
     color: rebeccapurple;
     font-size: 2rem; }
@@ -186,7 +187,11 @@ h5 a:hover {
   .evolucionC .hoyElefantes {
     border-width: 2rem; }
   .evolucionC .tituloPrincipal {
-    border-width: 2rem; } }
+    border-width: 2rem; }
+  .img__evolucion {
+    height: 22rem;
+    width: 28rem;
+    border-radius: 2em; } }
 
 /* galria*/
 .carrouselFotos {
