@@ -130,7 +130,8 @@ width: 6rem;
 
 }
 iframe{
-    width:460px;
+    width:530px;
+    height: 340px;
 
 }
  
@@ -144,9 +145,7 @@ iframe{
 
 }
 
-iframe{
-    width: 100%;
-}
+
 
 
 .fotoDurmiendo{
@@ -174,24 +173,20 @@ iframe{
 
 
 /*datos*/
- ol li {
+.container ol li {
     list-style: upper-roman;
-    margin-left: 2rem;
+    
     font-weight: 800;
     color: rgb(219, 49, 205);
     font-size: $size * 1;
-
-
- p{
+    
+    p{
     color: black;
     font-size: $lista;
 }
 
 }
 
-ol{
-    margin-left: 3rem;
-}
 ol ul{
     color: rgb(87, 2, 80);
     font-weight: 400;
@@ -215,25 +210,20 @@ h5 a:hover{
     }
 
     #footer{
-       font-weight: 400;
-        margin-top:1rem;
         background-color: rgb(9, 137, 223);
-        width: 100%;
-       
+   
     }
 
 
     @media screen and (min-width: 768px){
-        #footer{
-            
-            width: 100%;
-        }
+    
 
         ol li {
-            margin-left: 2rem;
+            padding-left: 2rem;
+            margin: 1rem;
             font-weight: 800;
             font-size: 2rem ;
-
+            list-style: upper-roman;
         }
         h1{
             font-size: 5rem;
@@ -251,6 +241,10 @@ h5 a:hover{
       
 
             border-width: 2rem;
+        }
+        iframe{
+            width: 100%;
+            height: 23rem;
         }
     }
     /* galria*/
