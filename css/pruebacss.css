@@ -125,6 +125,10 @@ p {
   grid-template-columns: repeat(6, 1fr);
   gap: 0,6rem; }
 
+iframe {
+  width: 100%;
+  height: 350px; }
+
 .fotoDurmiendo {
   width: 26rem;
   height: 17rem;
@@ -153,7 +157,8 @@ ol li {
 
 ol ul {
   color: #570250;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 2rem; }
 
 /*footer*/
 h5 {
