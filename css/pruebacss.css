@@ -142,12 +142,13 @@ iframe {
   margin-top: 2rem; }
 
 /*datos*/
-.container ol li {
+ol li {
   list-style: upper-roman;
+  margin-left: 4rem;
   font-weight: 800;
   color: #db31cd;
   font-size: 1rem; }
-  .container ol li p {
+  ol li p {
     color: black;
     font-size: 1rem; }
 
@@ -175,9 +176,10 @@ h5 a:hover {
 
 @media screen and (min-width: 768px) {
   ol li {
-    padding-left: 2rem;
+    padding: 1rem;
     margin: 1rem;
     font-weight: 800;
+    color: rebeccapurple;
     font-size: 2rem;
     list-style: upper-roman; }
   h1 {
@@ -193,5 +195,5 @@ h5 a:hover {
     height: 23rem; } }
 
 /* galria*/
-.fotos {
-  margin: 1rem; }
+.carrouselFotos {
+  margin-bottom: 1rem; }
