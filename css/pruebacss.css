@@ -1,6 +1,5 @@
 h1 {
   font-size: 3rem;
-  margin: 1rem;
   color: orange;
   font-weight: 900; }
 
@@ -91,7 +90,7 @@ p {
 /*evolucion*/
 .img__evolucion {
   height: 19rem;
-  width: 26rem;
+  width: 23rem;
   border-radius: 2em; }
 
 .evolucionC {
@@ -158,6 +157,9 @@ p {
 span {
   color: #504e4e; }
 
+iframe {
+  width: 100%; }
+
 /*datos*/
 .lista {
   padding-top: 6rem; }
@@ -203,8 +205,7 @@ h5 a:hover {
   ol ul {
     list-style-type: circle; }
   h1 {
-    font-size: 4rem;
-    margin: 1rem; }
+    font-size: 4rem; }
   .evolucionC .subtitulo {
     border-width: 2rem; }
   .evolucionC .hoyElefantes {
