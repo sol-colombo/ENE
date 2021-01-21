@@ -133,6 +133,11 @@ iframe {
   height: 17rem;
   border-radius: 2em; }
 
+.reina_foto {
+  width: 26rem;
+  height: 19rem;
+  border-radius: 2em; }
+
 /*afri y asia*/
 .galeriaEstructura .formularioDiv {
   margin-top: 2rem; }
