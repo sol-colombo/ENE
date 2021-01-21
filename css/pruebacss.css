@@ -90,8 +90,9 @@ p {
 /*evolucion*/
 .img__evolucion {
   height: 19rem;
-  width: 23rem;
-  border-radius: 2em; }
+  width: 21rem;
+  border-radius: 2em;
+  text-align: center; }
 
 .evolucionC {
   padding-top: 6rem; }
