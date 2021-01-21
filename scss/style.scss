@@ -135,6 +135,7 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
+    padding-top: 4rem;
 
 
 }
@@ -146,7 +147,7 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(6,1fr);
-
+    padding-top: 5rem;
 }
 
 

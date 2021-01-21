@@ -118,13 +118,15 @@ p {
   width: 100%;
   border: solid #d67f0d 1rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(6, 1fr); }
+  grid-template-rows: repeat(6, 1fr);
+  padding-top: 4rem; }
 
 .gridTablaGrande {
   display: grid;
   border: solid #d67f0d 1rem;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(6, 1fr); }
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 5rem; }
 
 .fotoDurmiendo {
   width: 24rem;
