@@ -175,11 +175,10 @@ iframe{
 /*datos*/
 
 ol li {
-
+    list-style: upper-roman;
     font-weight: 800;
     color: rgb(219, 49, 205);
     font-size: 2rem;
-    list-style: upper-roman;
     margin-left: 3rem;
 
     
@@ -223,10 +222,11 @@ h5 a:hover{
     
 ol li {
         
-            margin-left: 2rem;
+            margin-left: 3rem;
             font-weight: 800;
             color: rebeccapurple;
             font-size: 2rem ;
+            list-style: upper-roman;
             
         }
     ol ul{

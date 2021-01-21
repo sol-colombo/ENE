@@ -142,10 +142,10 @@ iframe {
 
 /*datos*/
 ol li {
+  list-style: upper-roman;
   font-weight: 800;
   color: #db31cd;
   font-size: 2rem;
-  list-style: upper-roman;
   margin-left: 3rem; }
   ol li p {
     color: black; }
@@ -175,10 +175,11 @@ h5 a:hover {
 
 @media screen and (min-width: 768px) {
   ol li {
-    margin-left: 2rem;
+    margin-left: 3rem;
     font-weight: 800;
     color: rebeccapurple;
-    font-size: 2rem; }
+    font-size: 2rem;
+    list-style: upper-roman; }
   ol ul {
     list-style-type: circle; }
   h1 {
