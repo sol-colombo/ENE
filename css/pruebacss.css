@@ -147,6 +147,9 @@ p {
 .galeriaEstructura .carrouselFotos {
   margin-top: 2rem; }
 
+span {
+  color: #504e4e; }
+
 /*datos*/
 .listaOrdenada ol li {
   list-style-type: upper-roman;
