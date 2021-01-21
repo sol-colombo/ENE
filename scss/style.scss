@@ -57,24 +57,15 @@
     
     .text-wrapper .subtitle{
         font-weight: 600;
-        transition: 1s;
-        color: transparent;
-    }
-    
-    .text-wrapper:hover .subtitle{
-        font-weight: 600;
         color: rgb(22, 236, 50);
         text-align: center;
         font-size: 3rem;
     }
     
-    .img-darken{
-        transition: 1s;
-        filter: brightness(10%);
-    }
+    
 
     .navLogo{
-        height: 5rem;
+        height: 4rem;
         width: 6rem;
         }
     
@@ -88,6 +79,23 @@
             height: 36rem;
             width: auto;
         }
+        .text-wrapper .subtitle{
+            font-weight: 600;
+            transition: 1s;
+            color: transparent;
+        }
+        
+        .text-wrapper:hover .subtitle{
+            font-weight: 600;
+            color: rgb(22, 236, 50);
+            text-align: center;
+            font-size: 3rem;
+        }
+        
+        .img-darken{
+            transition: 1s;
+            filter: brightness(10%);
+        }
     }
 
     /*evolucion*/
@@ -98,7 +106,9 @@
 
     }
     
-
+    .evolucionC{
+        padding-top:6rem;
+    }
 
 
 .evolucionC .subtitulo{
@@ -184,7 +194,11 @@ span{
 
 
 /*datos*/
-.listaOrdenada ol li{
+
+.lista{
+    padding-top: 6rem;
+}
+.listaOrdenada {
     list-style-type: upper-roman;
     font-weight: 800;
     color: rgb(219, 49, 205);
@@ -192,13 +206,13 @@ span{
 
 
     
-    p{
+  li  p{
     color: black;
 }
 
 }
 
- .listaOrdenada ol ul{
+ .listaOrdenada  ul li{
     color: rgb(87, 2, 80);
     font-weight: 400;
     font-size: 2rem;
@@ -230,7 +244,7 @@ h5 a:hover{
 
     @media screen and (min-width: 768px){
     
- .listaOrdenada ol li {
+ .listaOrdenada {
         
             margin-left: 3rem;
             font-weight: 800;
@@ -245,7 +259,6 @@ h5 a:hover{
 
         h1{
             font-size: 4rem;
-            padding: 1rem;
             margin: 1rem;
         }
         .evolucionC .subtitulo{
@@ -274,7 +287,12 @@ h5 a:hover{
         .video{
             border-width: 2rem;
         }
-            
+        .evolucionC{
+            padding-top: 5rem;
+        }
+            .galeriaEstructura{
+                padding-top: 5rem;
+            }
     }
     /* galria*/
     .carrouselFotos {
@@ -290,3 +308,6 @@ h5 a:hover{
         border-width: 1rem;
         margin-bottom: 1rem;
     } 
+    .galeriaEstructura{
+        padding-top: 6rem;
+    }

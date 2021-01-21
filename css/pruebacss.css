@@ -60,21 +60,12 @@ p {
 
 .text-wrapper .subtitle {
   font-weight: 600;
-  transition: 1s;
-  color: transparent; }
-
-.text-wrapper:hover .subtitle {
-  font-weight: 600;
   color: #16ec32;
   text-align: center;
   font-size: 3rem; }
 
-.img-darken {
-  transition: 1s;
-  filter: brightness(10%); }
-
 .navLogo {
-  height: 5rem;
+  height: 4rem;
   width: 6rem; }
 
 @media screen and (min-width: 768px) {
@@ -83,13 +74,28 @@ p {
     grid-template-columns: 1fr 1fr; }
   .portfolio-img-background {
     height: 36rem;
-    width: auto; } }
+    width: auto; }
+  .text-wrapper .subtitle {
+    font-weight: 600;
+    transition: 1s;
+    color: transparent; }
+  .text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: #16ec32;
+    text-align: center;
+    font-size: 3rem; }
+  .img-darken {
+    transition: 1s;
+    filter: brightness(10%); } }
 
 /*evolucion*/
 .img__evolucion {
   height: 19rem;
   width: 26rem;
   border-radius: 2em; }
+
+.evolucionC {
+  padding-top: 6rem; }
 
 .evolucionC .subtitulo {
   border-style: double;
@@ -151,15 +157,18 @@ span {
   color: #504e4e; }
 
 /*datos*/
-.listaOrdenada ol li {
+.lista {
+  padding-top: 6rem; }
+
+.listaOrdenada {
   list-style-type: upper-roman;
   font-weight: 800;
   color: #db31cd;
   font-size: 2rem; }
-  .listaOrdenada ol li p {
+  .listaOrdenada li p {
     color: black; }
 
-.listaOrdenada ol ul {
+.listaOrdenada ul li {
   color: #570250;
   font-weight: 400;
   font-size: 2rem;
@@ -183,7 +192,7 @@ h5 a:hover {
   background-color: #0989df; }
 
 @media screen and (min-width: 768px) {
-  .listaOrdenada ol li {
+  .listaOrdenada {
     margin-left: 3rem;
     font-weight: 800;
     color: rebeccapurple;
@@ -193,7 +202,6 @@ h5 a:hover {
     list-style-type: circle; }
   h1 {
     font-size: 4rem;
-    padding: 1rem;
     margin: 1rem; }
   .evolucionC .subtitulo {
     border-width: 2rem; }
@@ -208,7 +216,11 @@ h5 a:hover {
   .textoElefantes {
     border-width: 2rem; }
   .video {
-    border-width: 2rem; } }
+    border-width: 2rem; }
+  .evolucionC {
+    padding-top: 5rem; }
+  .galeriaEstructura {
+    padding-top: 5rem; } }
 
 /* galria*/
 .carrouselFotos {
@@ -222,3 +234,6 @@ h5 a:hover {
   border-color: #12442b;
   border-width: 1rem;
   margin-bottom: 1rem; }
+
+.galeriaEstructura {
+  padding-top: 6rem; }
