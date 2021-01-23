@@ -114,18 +114,21 @@
 
 .evolucionC .subtitulo{
     border-style: double;
-    border-color: rgb(99, 27, 27);
+    border-color: rgb(105, 20, 14);
     border-width: 1rem;
+    padding: 2rem;
 }
  .evolucionC .hoyElefantes{
     border-style: double;
-    border-color: rgb(197, 181, 32);
+    border-color: rgb(242, 243, 174);
     border-width: 1rem;
+    padding: 2rem;
 }
 .evolucionC .tituloPrincipal{
     border-style: double;
-    border-color: rgb(18, 68, 43);
+    border-color: rgb(213, 137, 54);
     border-width: 1rem;
+    padding: 2rem;
 }
 
 /*afri y asia*/
@@ -145,7 +148,7 @@
 
 .gridTablaGrande{
     display: grid;
-    border: solid rgb(214, 127, 13) 1rem;
+    border: solid rgb(213, 137, 54) 1rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(6,1fr);
     padding-top: 5rem;
@@ -171,12 +174,12 @@
 
 .textoElefantes{
     border-style: double;
-    border-color: rgb(99, 27, 27);
+    border-color: rgb(60, 21, 24);
     border-width: 1rem;
 }
 .video{
     border-style: double;
-    border-color: rgb(18, 68, 43);
+    border-color: rgb(164, 66, 0);
     border-width: 1rem;
 }
 
@@ -229,7 +232,7 @@ iframe{
 
 h5{
 
-    color:$back;
+    color:white;
 }
 h5 a{
     transition: all 1s;
@@ -244,23 +247,13 @@ h5 a:hover{
 
     #footer{
         background-color: rgb(9, 137, 223);
+        padding: 2rem;
     }
 
 
     @media screen and (min-width: 768px){
     
- .listaOrdenada {
-        
-            margin-left: 3rem;
-            font-weight: 800;
-            color: rebeccapurple;
-            font-size: 2rem ;
-            list-style: upper-roman;
-            
-        }
-    ol ul{
-        list-style-type:circle;
-    }
+
 
         h1{
             font-size: 4rem;
@@ -302,18 +295,25 @@ h5 a:hover{
                 width: 27rem;
                 height: 20rem;
             }
+      .galeriaEstructura      .carrouselFotos{
+                border-width: 2rem;
+            }
+             .galeriaEstructura .formularioDiv{
+                border-width: 4rem;
+            }
+
     }
     /* galria*/
-    .carrouselFotos {
+    .galeriaEstructura .carrouselFotos {
         margin-bottom: 1rem;
         border-style: double;
-        border-color: rgb(197, 181, 32);
+        border-color: rgb(242, 243, 174);
         border-width: 1rem;
     
     }
-    .formularioDiv{
+ .galeriaEstructura   .formularioDiv{
         border-style: double;
-        border-color: rgb(18, 68, 43);
+        border-color: rgb(60, 21, 24);
         border-width: 1rem;
         margin-bottom: 1rem;
     } 

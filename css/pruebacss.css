@@ -99,18 +99,21 @@ p {
 
 .evolucionC .subtitulo {
   border-style: double;
-  border-color: #631b1b;
-  border-width: 1rem; }
+  border-color: #69140e;
+  border-width: 1rem;
+  padding: 2rem; }
 
 .evolucionC .hoyElefantes {
   border-style: double;
-  border-color: #c5b520;
-  border-width: 1rem; }
+  border-color: #f2f3ae;
+  border-width: 1rem;
+  padding: 2rem; }
 
 .evolucionC .tituloPrincipal {
   border-style: double;
-  border-color: #12442b;
-  border-width: 1rem; }
+  border-color: #d58936;
+  border-width: 1rem;
+  padding: 2rem; }
 
 /*afri y asia*/
 .gridTabla {
@@ -123,7 +126,7 @@ p {
 
 .gridTablaGrande {
   display: grid;
-  border: solid #d67f0d 1rem;
+  border: solid #d58936 1rem;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(6, 1fr);
   padding-top: 5rem; }
@@ -141,12 +144,12 @@ p {
 /*afri y asia*/
 .textoElefantes {
   border-style: double;
-  border-color: #631b1b;
+  border-color: #3c1518;
   border-width: 1rem; }
 
 .video {
   border-style: double;
-  border-color: #12442b;
+  border-color: #a44200;
   border-width: 1rem; }
 
 .galeriaEstructura .formularioDiv {
@@ -181,7 +184,7 @@ iframe {
 
 /*footer*/
 h5 {
-  color: red; }
+  color: white; }
 
 h5 a {
   transition: all 1s;
@@ -194,17 +197,10 @@ h5 a:hover {
   margin: 1rem; }
 
 #footer {
-  background-color: #0989df; }
+  background-color: #0989df;
+  padding: 2rem; }
 
 @media screen and (min-width: 768px) {
-  .listaOrdenada {
-    margin-left: 3rem;
-    font-weight: 800;
-    color: rebeccapurple;
-    font-size: 2rem;
-    list-style: upper-roman; }
-  ol ul {
-    list-style-type: circle; }
   h1 {
     font-size: 4rem; }
   .evolucionC .subtitulo {
@@ -227,18 +223,22 @@ h5 a:hover {
     padding-top: 5rem; }
   .reina_foto {
     width: 27rem;
-    height: 20rem; } }
+    height: 20rem; }
+  .galeriaEstructura .carrouselFotos {
+    border-width: 2rem; }
+  .galeriaEstructura .formularioDiv {
+    border-width: 4rem; } }
 
 /* galria*/
-.carrouselFotos {
+.galeriaEstructura .carrouselFotos {
   margin-bottom: 1rem;
   border-style: double;
-  border-color: #c5b520;
+  border-color: #f2f3ae;
   border-width: 1rem; }
 
-.formularioDiv {
+.galeriaEstructura .formularioDiv {
   border-style: double;
-  border-color: #12442b;
+  border-color: #3c1518;
   border-width: 1rem;
   margin-bottom: 1rem; }
 
