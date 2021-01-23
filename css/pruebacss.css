@@ -145,7 +145,8 @@ p {
 .textoElefantes {
   border-style: double;
   border-color: #3c1518;
-  border-width: 1rem; }
+  border-width: 1rem;
+  padding: 2rem; }
 
 .video {
   border-style: double;
@@ -225,7 +226,7 @@ h5 a:hover {
     width: 27rem;
     height: 20rem; }
   .galeriaEstructura .carrouselFotos {
-    border-width: 2rem; }
+    border-width: 5rem; }
   .galeriaEstructura .formularioDiv {
     border-width: 4rem; } }
 
@@ -234,12 +235,12 @@ h5 a:hover {
   margin-bottom: 1rem;
   border-style: double;
   border-color: #f2f3ae;
-  border-width: 1rem; }
+  border-width: 2rem; }
 
 .galeriaEstructura .formularioDiv {
   border-style: double;
   border-color: #3c1518;
-  border-width: 1rem;
+  border-width: 2rem;
   margin-bottom: 1rem; }
 
 .galeriaEstructura {
