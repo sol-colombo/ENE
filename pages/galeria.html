@@ -81,28 +81,45 @@
           
         </div>
         <div class=" col-sm-12 col-md-5 formularioDiv ">
-           <h2 >Formulario </h2>
-    <form   action="datos.php" method="GET">
-<label for="Nombre">Nombre y Apellido</label>
-    <input type="texto" placeholder="Nombre y apellido" name="Nombre y Apellido" id="Nombre" required><br>
-<label>Sexo:</label><br>
-    <input type="radio" name="sexo" required>Hombre<br>
-    <input type="radio" name="sexo" required>Mujer<br>
-    <input type="radio" name="sexo" required>Otro<br>
-<label for="edad">Edad</label>
-    <input type="number" name="edad" id="edad" placeholder="Escribe tu edad" required><br>
-<label for="e-mail">E-mail</label>
-    <input type="email" id="e-mail" name="e-mail" placeholder="e-mail"><br>
-<label>Opinión sobre el peligro de extinción de los elefantes </label><br>
-<textarea></textarea>
-
-
-<input type="submit">
-<input type="reset">
-    </form>
+          
+          
+          <h2 >Formulario </h2>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" name="username" placeholder="Nombre y apellido">
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <label for="sex">Seleccione el sexo:</label>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Hombre
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Mujer
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Otro
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+  
         </div>
       </div>
-   
     </div>
     <footer class="col-sm-12 container-fluid " id="footer">
       <h5>Contacto</h5>

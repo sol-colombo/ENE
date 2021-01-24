@@ -1,5 +1,5 @@
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: orange;
   font-weight: 900; }
 
@@ -38,7 +38,7 @@ p {
 .portfolio-item-wrapper {
   position: relative; }
 
-.portfolio-img-background {
+.imagenIndex {
   height: 32rem;
   width: 100%;
   background-size: cover;
@@ -71,21 +71,18 @@ p {
   .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr; }
-  .portfolio-img-background {
-    height: 36rem;
-    width: auto; }
+  img {
+    height: 100vh;
+    width: 100%; }
   .text-wrapper .subtitle {
     font-weight: 600;
-    transition: 1s;
+    transition: 1s all;
     color: transparent; }
-  .text-wrapper:hover .subtitle {
+  .portfolio-item-wrapper:hover .subtitle {
     font-weight: 600;
     color: #16ec32;
     text-align: center;
-    font-size: 3rem; }
-  .img-darken {
-    transition: 1s;
-    filter: brightness(10%); } }
+    font-size: 3rem; } }
 
 /*evolucion*/
 .img__evolucion {
@@ -167,15 +164,23 @@ iframe {
 
 /*datos*/
 .lista {
-  padding-top: 6rem; }
+  padding-top: 6rem;
+  border-style: double;
+  border-color: #a44200;
+  border-width: 1rem; }
 
 .listaOrdenada {
+  padding: 2rem; }
+
+.cabecera {
+  padding: 2rem; }
+
+ol {
   list-style-type: upper-roman;
   font-weight: 800;
   color: #db31cd;
-  font-size: 2rem; }
-  .listaOrdenada li p {
-    color: black; }
+  font-size: 2rem;
+  padding: 2rem; }
 
 .listaOrdenada ul li {
   color: #570250;
@@ -201,9 +206,25 @@ h5 a:hover {
   background-color: #0989df;
   padding: 2rem; }
 
+/* galria*/
+.galeriaEstructura .carrouselFotos {
+  margin-bottom: 1rem;
+  border-style: double;
+  border-color: #f2f3ae;
+  border-width: 2rem; }
+
+.galeriaEstructura .formularioDiv {
+  border-style: double;
+  border-color: #3c1518;
+  border-width: 1rem;
+  margin-bottom: 1rem; }
+
+.galeriaEstructura {
+  padding-top: 6rem; }
+
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 4rem; }
+    font-size: 3rem; }
   .evolucionC .subtitulo {
     border-width: 2rem; }
   .evolucionC .hoyElefantes {
@@ -226,22 +247,8 @@ h5 a:hover {
     width: 27rem;
     height: 20rem; }
   .galeriaEstructura .carrouselFotos {
-    border-width: 5rem; }
+    border-width: 2rem; }
   .galeriaEstructura .formularioDiv {
-    border-width: 4rem; } }
-
-/* galria*/
-.galeriaEstructura .carrouselFotos {
-  margin-bottom: 1rem;
-  border-style: double;
-  border-color: #f2f3ae;
-  border-width: 2rem; }
-
-.galeriaEstructura .formularioDiv {
-  border-style: double;
-  border-color: #3c1518;
-  border-width: 2rem;
-  margin-bottom: 1rem; }
-
-.galeriaEstructura {
-  padding-top: 6rem; }
+    border-width: 2rem; }
+  .lista {
+    border-width: 2rem; } }

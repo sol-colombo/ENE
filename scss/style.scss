@@ -33,7 +33,7 @@
         position: relative;
     }
     
-    .portfolio-img-background{
+    .imagenIndex{
         height:32rem;
         width:100%;
         background-size:cover;
@@ -75,27 +75,24 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
-        .portfolio-img-background{
-            height: 36rem;
-            width: auto;
+        img{
+            height: 100vh;
+            width:100%;
         }
         .text-wrapper .subtitle{
             font-weight: 600;
-            transition: 1s;
+            transition: 1s all;
             color: transparent;
         }
         
-        .text-wrapper:hover .subtitle{
+        .portfolio-item-wrapper:hover .subtitle{
             font-weight: 600;
             color: rgb(22, 236, 50);
             text-align: center;
             font-size: 3rem;
         }
         
-        .img-darken{
-            transition: 1s;
-            filter: brightness(10%);
-        }
+      
     }
 
     /*evolucion*/
@@ -118,7 +115,7 @@
     border-width: 1rem;
     padding: 2rem;
 }
- .evolucionC .hoyElefantes{
+.evolucionC .hoyElefantes{
     border-style: double;
     border-color: rgb(242, 243, 174);
     border-width: 1rem;
@@ -206,20 +203,25 @@ iframe{
 
 .lista{
     padding-top: 6rem;
+    border-style: double;
+    border-color:  rgb(164, 66, 0);
+    border-width: 1rem;
 }
-.listaOrdenada {
+.listaOrdenada{
+    padding: 2rem;
+}
+
+.cabecera{
+padding: 2rem;
+}
+ ol{
     list-style-type: upper-roman;
     font-weight: 800;
     color: rgb(219, 49, 205);
     font-size: 2rem;
-
-
-    
-  li  p{
-    color: black;
+    padding: 2rem;
 }
 
-}
 
  .listaOrdenada  ul li{
     color: rgb(87, 2, 80);
@@ -252,12 +254,31 @@ h5 a:hover{
     }
 
 
+      /* galria*/
+      .galeriaEstructura .carrouselFotos {
+        margin-bottom: 1rem;
+        border-style: double;
+        border-color: rgb(242, 243, 174);
+        border-width:2rem;
+    
+    }
+ .galeriaEstructura   .formularioDiv{
+        border-style: double;
+        border-color: rgb(60, 21, 24);
+        border-width: 1rem;
+        margin-bottom: 1rem;
+    } 
+    .galeriaEstructura{
+        padding-top: 6rem;
+    }
+
+
     @media screen and (min-width: 768px){
     
 
 
         h1{
-            font-size: 4rem;
+            font-size: 3rem;
         }
         .evolucionC .subtitulo{
             
@@ -297,27 +318,12 @@ h5 a:hover{
                 height: 20rem;
             }
       .galeriaEstructura      .carrouselFotos{
-                border-width: 5rem;
+                border-width: 2rem;
             }
              .galeriaEstructura .formularioDiv{
-                border-width: 4rem;
+                border-width: 2rem;
             }
-
-    }
-    /* galria*/
-    .galeriaEstructura .carrouselFotos {
-        margin-bottom: 1rem;
-        border-style: double;
-        border-color: rgb(242, 243, 174);
-        border-width:2rem;
-    
-    }
- .galeriaEstructura   .formularioDiv{
-        border-style: double;
-        border-color: rgb(60, 21, 24);
-        border-width: 2rem;
-        margin-bottom: 1rem;
-    } 
-    .galeriaEstructura{
-        padding-top: 6rem;
+            .lista{
+                border-width: 2rem;
+            }
     }
