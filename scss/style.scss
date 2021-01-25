@@ -33,7 +33,7 @@
         position: relative;
     }
     
-    .imagenIndex{
+    img{
         height:32rem;
         width:100%;
         background-size:cover;
@@ -208,11 +208,11 @@ iframe{
     border-width: 1rem;
 }
 .listaOrdenada{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .cabecera{
-padding: 2rem;
+padding: 1rem;
 }
  ol{
     list-style-type: upper-roman;
