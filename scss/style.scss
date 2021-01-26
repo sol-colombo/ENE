@@ -208,9 +208,7 @@ iframe{
     border-color:  rgb(164, 66, 0);
     border-width: 1rem;
 }
-.listaOrdenada{
-    padding: 1rem;
-}
+
 
 .cabecera{
 padding: 1rem;
@@ -275,7 +273,6 @@ h5 a:hover{
     .galeriaEstructura{
         padding-top: 6rem;
     }
-   
 
     @media screen and (min-width: 768px){
     
@@ -287,6 +284,9 @@ h5 a:hover{
         .buttons{
             display: none;
         }
+.listas{
+    display: block;
+}
     
         h1{
             font-size: 3rem;
@@ -337,4 +337,10 @@ h5 a:hover{
             .lista{
                 border-width: $all;
             }
+    }
+
+    @media only screen and (max-width: 768px){
+        .listas{
+            display: none;
+        }
     }

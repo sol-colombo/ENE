@@ -168,9 +168,6 @@ iframe {
   border-color: #a44200;
   border-width: 1rem; }
 
-.listaOrdenada {
-  padding: 1rem; }
-
 .cabecera {
   padding: 1rem; }
 
@@ -231,6 +228,8 @@ h5 a:hover {
     gap: 2rem; }
   .buttons {
     display: none; }
+  .listas {
+    display: block; }
   h1 {
     font-size: 3rem; }
   .evolucionC .subtitulo {
@@ -260,3 +259,7 @@ h5 a:hover {
     border-width: 2rem; }
   .lista {
     border-width: 2rem; } }
+
+@media only screen and (max-width: 768px) {
+  .listas {
+    display: none; } }
