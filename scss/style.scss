@@ -136,7 +136,8 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
-    padding-top: 4rem;
+    padding: 2rem;
+    gap: 2rem;
 
 
 }
@@ -275,6 +276,11 @@ h5 a:hover{
 
     @media screen and (min-width: 768px){
     
+        .gridTabla{
+            padding: 4rem;
+            margin-top: 4rem;
+            gap: 2rem;
+        }
 
 
         h1{

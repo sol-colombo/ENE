@@ -118,7 +118,8 @@ img {
   border: solid #d67f0d 1rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
-  padding-top: 4rem; }
+  padding: 2rem;
+  gap: 2rem; }
 
 .gridTablaGrande {
   display: grid;
@@ -222,6 +223,10 @@ h5 a:hover {
   padding-top: 6rem; }
 
 @media screen and (min-width: 768px) {
+  .gridTabla {
+    padding: 4rem;
+    margin-top: 4rem;
+    gap: 2rem; }
   h1 {
     font-size: 3rem; }
   .evolucionC .subtitulo {
