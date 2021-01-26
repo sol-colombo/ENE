@@ -232,6 +232,7 @@ padding: 1rem;
 
 }
 
+
 /*footer*/
 
 h5{
@@ -254,7 +255,9 @@ h5 a:hover{
         padding: 2rem;
     }
 
-
+.listas{
+    display: block;
+}
       /* galria*/
       .galeriaEstructura .carrouselFotos {
         margin-bottom: 1rem;
@@ -272,45 +275,47 @@ h5 a:hover{
     .galeriaEstructura{
         padding-top: 6rem;
     }
-
+   
 
     @media screen and (min-width: 768px){
     
         .gridTabla{
             padding: 4rem;
             margin-top: 4rem;
-            gap: 2rem;
+            gap: $all;
         }
-
-
+        .buttons{
+            display: none;
+        }
+    
         h1{
             font-size: 3rem;
         }
         .evolucionC .subtitulo{
             
-    border-width: 2rem;
+    border-width: $all;
         }
         .evolucionC .hoyElefantes{
             
     
-            border-width: 2rem;
+            border-width: $all;
         }
         .evolucionC .tituloPrincipal{
 
-            border-width: 2rem;
+            border-width: $all;
         }
 
         .img__evolucion{
             height: 22rem;
             width:28rem;
-            border-radius: 2em;
+            border-radius:$all;
         
             }
         .textoElefantes{
-                border-width: 2rem;
+                border-width: $all;
             }
         .video{
-            border-width: 2rem;
+            border-width: $all;
         }
         .evolucionC{
             padding-top: 5rem;
@@ -324,12 +329,12 @@ h5 a:hover{
                 height: 20rem;
             }
       .galeriaEstructura      .carrouselFotos{
-                border-width: 2rem;
+                border-width:$all;
             }
              .galeriaEstructura .formularioDiv{
-                border-width: 2rem;
+                border-width: $all;
             }
             .lista{
-                border-width: 2rem;
+                border-width: $all;
             }
     }

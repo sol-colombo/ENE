@@ -205,6 +205,9 @@ h5 a:hover {
   background-color: #0989df;
   padding: 2rem; }
 
+.listas {
+  display: block; }
+
 /* galria*/
 .galeriaEstructura .carrouselFotos {
   margin-bottom: 1rem;
@@ -226,6 +229,8 @@ h5 a:hover {
     padding: 4rem;
     margin-top: 4rem;
     gap: 2rem; }
+  .buttons {
+    display: none; }
   h1 {
     font-size: 3rem; }
   .evolucionC .subtitulo {
@@ -237,7 +242,7 @@ h5 a:hover {
   .img__evolucion {
     height: 22rem;
     width: 28rem;
-    border-radius: 2em; }
+    border-radius: 2rem; }
   .textoElefantes {
     border-width: 2rem; }
   .video {
