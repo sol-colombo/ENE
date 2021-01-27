@@ -30,12 +30,19 @@ p {
   margin: 0;
   width: auto; }
 
+.principal {
+  font-weight: 900; }
+
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr; }
 
 .portfolio-item-wrapper {
   position: relative; }
+
+.voluntariado .textoInfomativo {
+  padding: 2rem;
+  margin: 4rem; }
 
 img {
   width: 100%;
@@ -74,13 +81,11 @@ img {
     width: 100%; }
   .text-wrapper .subtitle {
     font-weight: 600;
-    transition: 1s all;
-    color: transparent; }
-  .portfolio-item-wrapper:hover .subtitle {
-    font-weight: 600;
-    color: #16ec32;
     text-align: center;
-    font-size: 3rem; } }
+    font-size: 3rem;
+    color: #16ec32; }
+  .animate__animated.animate__zoomInDown {
+    --animate-duration: 2s; } }
 
 /*evolucion*/
 .img__evolucion {
@@ -93,21 +98,12 @@ img {
   padding-top: 6rem; }
 
 .evolucionC .subtitulo {
-  border-style: double;
-  border-color: #69140e;
-  border-width: 1rem;
   padding: 2rem; }
 
 .evolucionC .hoyElefantes {
-  border-style: double;
-  border-color: #f2f3ae;
-  border-width: 1rem;
   padding: 2rem; }
 
 .evolucionC .tituloPrincipal {
-  border-style: double;
-  border-color: #d58936;
-  border-width: 1rem;
   padding: 2rem; }
 
 /*afri y asia*/
@@ -117,15 +113,9 @@ img {
   border: solid #d67f0d 1rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
-  padding: 2rem;
-  gap: 2rem; }
-
-.gridTablaGrande {
-  display: grid;
-  border: solid #d58936 1rem;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(6, 1fr);
-  padding-top: 5rem; }
+  padding: 4rem;
+  gap: 2rem;
+  margin-top: 4rem; }
 
 .fotoDurmiendo {
   width: 20rem;
@@ -139,15 +129,7 @@ img {
 
 /*afri y asia*/
 .textoElefantes {
-  border-style: double;
-  border-color: #3c1518;
-  border-width: 1rem;
   padding: 2rem; }
-
-.video {
-  border-style: double;
-  border-color: #a44200;
-  border-width: 1rem; }
 
 .galeriaEstructura .formularioDiv {
   margin-top: 2rem; }
@@ -163,10 +145,7 @@ iframe {
 
 /*datos*/
 .lista {
-  padding-top: 6rem;
-  border-style: double;
-  border-color: #a44200;
-  border-width: 1rem; }
+  padding-top: 6rem; }
 
 .cabecera {
   padding: 1rem; }
@@ -181,8 +160,7 @@ ol {
 .listaOrdenada ul li {
   color: #570250;
   font-weight: 400;
-  font-size: 2rem;
-  list-style-type: circle; }
+  font-size: 2rem; }
 
 /*footer*/
 h5 {
@@ -207,15 +185,9 @@ h5 a:hover {
 
 /* galria*/
 .galeriaEstructura .carrouselFotos {
-  margin-bottom: 1rem;
-  border-style: double;
-  border-color: #f2f3ae;
-  border-width: 2rem; }
+  margin-bottom: 1rem; }
 
 .galeriaEstructura .formularioDiv {
-  border-style: double;
-  border-color: #3c1518;
-  border-width: 1rem;
   margin-bottom: 1rem; }
 
 .galeriaEstructura {
@@ -224,7 +196,7 @@ h5 a:hover {
 @media screen and (min-width: 768px) {
   .gridTabla {
     padding: 4rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     gap: 2rem; }
   .buttons {
     display: none; }
@@ -232,33 +204,17 @@ h5 a:hover {
     display: block; }
   h1 {
     font-size: 3rem; }
-  .evolucionC .subtitulo {
-    border-width: 2rem; }
-  .evolucionC .hoyElefantes {
-    border-width: 2rem; }
-  .evolucionC .tituloPrincipal {
-    border-width: 2rem; }
   .img__evolucion {
     height: 22rem;
     width: 28rem;
     border-radius: 2rem; }
-  .textoElefantes {
-    border-width: 2rem; }
-  .video {
-    border-width: 2rem; }
   .evolucionC {
     padding-top: 5rem; }
   .galeriaEstructura {
     padding-top: 5rem; }
   .reina_foto {
     width: 27rem;
-    height: 20rem; }
-  .galeriaEstructura .carrouselFotos {
-    border-width: 2rem; }
-  .galeriaEstructura .formularioDiv {
-    border-width: 2rem; }
-  .lista {
-    border-width: 2rem; } }
+    height: 20rem; } }
 
 @media only screen and (max-width: 768px) {
   .listas {

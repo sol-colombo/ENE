@@ -22,7 +22,10 @@
     margin: 0;
     width: auto;
     }
-    
+    .principal{
+
+  font-weight: 900;
+    }
     .portfolio-items-wrapper{
     
         display: grid;
@@ -32,7 +35,10 @@
     .portfolio-item-wrapper{
         position: relative;
     }
-    
+     .voluntariado .textoInfomativo{
+        padding: 2rem;
+        margin: 4rem;
+    }
     img{
        
         width:100%;
@@ -81,16 +87,14 @@
         }
         .text-wrapper .subtitle{
             font-weight: 600;
-            transition: 1s all;
-            color: transparent;
-        }
-        
-        .portfolio-item-wrapper:hover .subtitle{
-            font-weight: 600;
-            color: rgb(22, 236, 50);
             text-align: center;
             font-size: 3rem;
+            color: rgb(22, 236, 50);
         }
+        .animate__animated.animate__zoomInDown {
+            --animate-duration: 2s;
+          }
+
         
       
     }
@@ -110,21 +114,15 @@
 
 
 .evolucionC .subtitulo{
-    border-style: double;
-    border-color: rgb(105, 20, 14);
-    border-width: 1rem;
+
     padding: 2rem;
 }
 .evolucionC .hoyElefantes{
-    border-style: double;
-    border-color: rgb(242, 243, 174);
-    border-width: 1rem;
+
     padding: 2rem;
 }
 .evolucionC .tituloPrincipal{
-    border-style: double;
-    border-color: rgb(213, 137, 54);
-    border-width: 1rem;
+  
     padding: 2rem;
 }
 
@@ -136,21 +134,13 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
-    padding: 2rem;
+    padding: 4rem;
     gap: 2rem;
+    margin-top: 4rem;
 
 
 }
 
-
-
-.gridTablaGrande{
-    display: grid;
-    border: solid rgb(213, 137, 54) 1rem;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(6,1fr);
-    padding-top: 5rem;
-}
 
 
 
@@ -171,16 +161,9 @@
 
 
 .textoElefantes{
-    border-style: double;
-    border-color: rgb(60, 21, 24);
-    border-width: 1rem;
     padding: 2rem;
 }
-.video{
-    border-style: double;
-    border-color: rgb(164, 66, 0);
-    border-width: 1rem;
-}
+
 
 .galeriaEstructura .formularioDiv{
     margin-top: 2rem;
@@ -204,9 +187,7 @@ iframe{
 
 .lista{
     padding-top: 6rem;
-    border-style: double;
-    border-color:  rgb(164, 66, 0);
-    border-width: 1rem;
+  
 }
 
 
@@ -226,8 +207,6 @@ padding: 1rem;
     color: rgb(87, 2, 80);
     font-weight: 400;
     font-size: 2rem;
-    list-style-type:circle;
-
 }
 
 
@@ -259,15 +238,10 @@ h5 a:hover{
       /* galria*/
       .galeriaEstructura .carrouselFotos {
         margin-bottom: 1rem;
-        border-style: double;
-        border-color: rgb(242, 243, 174);
-        border-width:2rem;
     
     }
  .galeriaEstructura   .formularioDiv{
-        border-style: double;
-        border-color: rgb(60, 21, 24);
-        border-width: 1rem;
+
         margin-bottom: 1rem;
     } 
     .galeriaEstructura{
@@ -278,32 +252,21 @@ h5 a:hover{
     
         .gridTabla{
             padding: 4rem;
-            margin-top: 4rem;
+            margin-top: 3rem;
             gap: $all;
+
         }
         .buttons{
             display: none;
         }
-.listas{
+        .listas{
     display: block;
-}
+        }
     
         h1{
             font-size: 3rem;
         }
-        .evolucionC .subtitulo{
-            
-    border-width: $all;
-        }
-        .evolucionC .hoyElefantes{
-            
-    
-            border-width: $all;
-        }
-        .evolucionC .tituloPrincipal{
 
-            border-width: $all;
-        }
 
         .img__evolucion{
             height: 22rem;
@@ -311,12 +274,6 @@ h5 a:hover{
             border-radius:$all;
         
             }
-        .textoElefantes{
-                border-width: $all;
-            }
-        .video{
-            border-width: $all;
-        }
         .evolucionC{
             padding-top: 5rem;
         }
@@ -327,15 +284,6 @@ h5 a:hover{
             .reina_foto{
                 width: 27rem;
                 height: 20rem;
-            }
-      .galeriaEstructura      .carrouselFotos{
-                border-width:$all;
-            }
-             .galeriaEstructura .formularioDiv{
-                border-width: $all;
-            }
-            .lista{
-                border-width: $all;
             }
     }
 
