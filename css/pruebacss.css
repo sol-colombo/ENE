@@ -30,6 +30,10 @@ p {
   margin: 0;
   width: auto; }
 
+.content-wrapper h1 {
+  font-weight: 900;
+  font-size: 3rem; }
+
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr; }
@@ -37,9 +41,9 @@ p {
 .portfolio-item-wrapper {
   position: relative; }
 
-.voluntariado .textoInfomativo {
-  padding: 2rem;
-  margin: 4rem; }
+.voluntariado {
+  padding-left: 1rem;
+  padding-top: 3rem; }
 
 img {
   width: 100%;
