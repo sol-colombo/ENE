@@ -131,7 +131,7 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
-    padding: 3rem;
+    padding-top: 3rem;
    
     margin-top: 4rem;
 
@@ -281,6 +281,9 @@ h5 a:hover{
             .reina_foto{
                 width: 27rem;
                 height: 20rem;
+            }
+            .carrouselFotos{
+                width: 100%;
             }
     }
 
