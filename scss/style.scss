@@ -35,10 +35,7 @@
     .portfolio-item-wrapper{
         position: relative;
     }
-  .voluntariado{
-      padding-left: 1rem;
-      padding-top: 3rem;
-  }
+
     img{
        
         width:100%;
@@ -101,8 +98,8 @@
 
     /*evolucion*/
     .img__evolucion{
-    height: 16rem;
-    width:18rem;
+    height: 13rem;
+    width:16rem;
     border-radius: 2em;
     text-align: center;
 
@@ -134,8 +131,8 @@
     border: solid rgb(214, 127, 13) 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);
-    padding: 4rem;
-    gap: 2rem;
+    padding: 3rem;
+   
     margin-top: 4rem;
 
 
@@ -151,8 +148,8 @@
     border-radius: 2em;
 }
 .reina_foto{
-    width: 19rem;
-    height: 16rem;
+    width: 17rem;
+    height: 15rem;
     border-radius: 2em;
 }
 
@@ -269,7 +266,7 @@ h5 a:hover{
 
 
         .img__evolucion{
-            height: 22rem;
+            height: 24rem;
             width:28rem;
             border-radius:$all;
         
