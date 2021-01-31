@@ -110,7 +110,7 @@ img {
   border: solid #d67f0d 1rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
-  padding: 3rem;
+  padding-top: 3rem;
   margin-top: 4rem; }
 
 .fotoDurmiendo {
